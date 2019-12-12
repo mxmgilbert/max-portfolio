@@ -12,6 +12,7 @@ export const query = graphql`
       id
       publishedAt
       externalLink
+      projectNumber
       categories {
         _id
         title
@@ -45,7 +46,30 @@ export const query = graphql`
         }
         alt
       }
+      logo {
+        crop {
+          _key
+          _type
+          top
+          bottom
+          left
+          right
+        }
+        hotspot {
+          _key
+          _type
+          x
+          y
+          height
+          width
+        }
+        asset {
+          _id
+        }
+        alt
+      }
       title
+      subtitle
       slug {
         current
       }

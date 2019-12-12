@@ -11,6 +11,16 @@ export default {
       type: "string"
     },
     {
+      name: "subtitle",
+      title: "Subtitle",
+      type: "string"
+    },
+    {
+      name: "projectNumber",
+      title: "Project number",
+      type: "string"
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",
@@ -55,6 +65,11 @@ export default {
     {
       name: "mainImage",
       title: "Main image",
+      type: "figure"
+    },
+    {
+      name: "logo",
+      title: "Logo",
       type: "figure"
     },
     {
