@@ -2,6 +2,7 @@
 
 :root {
   --italic-header: 2rem;
+  --bg-color: #f39d3878;
 }
 
 body {
@@ -152,7 +153,7 @@ img {
       grid-column-start: 1;
       grid-column-end: -1;
       z-index: 0;
-      background-color: #f39d3878;
+      background-color: var(--bg-color);
       /*background-image: url("https://www.alpinelines.fr/wp-content/uploads/2019/11/logo_alpine_lines_white.png");*/
       background-size: 60%;
       background-repeat: no-repeat;

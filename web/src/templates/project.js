@@ -13,6 +13,7 @@ export const query = graphql`
       publishedAt
       externalLink
       projectNumber
+      bgColor
       categories {
         _id
         title

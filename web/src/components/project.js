@@ -17,12 +17,15 @@ function Project(props) {
     externalLink,
     categories,
     projectNumber,
+    bgColor,
     mainImage,
     logo,
     members,
     publishedAt,
     relatedProjects
   } = props;
+  /** set background color */
+  document.documentElement.style.setProperty("--bg-color", bgColor);
   return (
     <article className={styles.root}>
       <section className={styles.gridSection}>
