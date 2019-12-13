@@ -21,6 +21,12 @@ export default {
       type: "string"
     },
     {
+      name: "bgColor",
+      title: "Background Color",
+      type: "string",
+      description: "Enter a hexadeciaml color"
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",
