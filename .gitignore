@@ -6,3 +6,6 @@
 
 # lerna files
 /lerna-debug.log
+
+# npm file causing deploy on netlify to fail
+package-lock.json
