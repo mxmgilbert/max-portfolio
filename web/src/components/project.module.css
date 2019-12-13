@@ -159,6 +159,18 @@ img {
       background-position: bottom right;
       padding: 3rem calc(10vw + 100px) 3rem 25px;
     }
+
+    img.logo {
+      max-width: 245px;
+      max-height: 450px;
+      z-index: 0;
+      grid-column: 1/4;
+      grid-row-start: 3;
+      grid-row-end: -1;
+      position: relative;
+      align-self: self-end;
+      justify-self: end;
+    }
   }
 }
 
@@ -222,13 +234,5 @@ img {
 
   img.logo {
     max-width: 425px;
-    max-height: 450px;
-    z-index: 0;
-    grid-column: 1/4;
-    grid-row-start: 3;
-    grid-row-end: -1;
-    position: relative;
-    align-self: self-end;
-    justify-self: end;
   }
 }
