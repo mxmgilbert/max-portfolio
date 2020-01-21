@@ -171,6 +171,7 @@ img {
       position: relative;
       align-self: self-end;
       justify-self: end;
+      object-fit: contain;
     }
   }
 }
